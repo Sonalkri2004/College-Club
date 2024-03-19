@@ -1,0 +1,100 @@
+/* Base Styles */
+.bodyy {
+  background-image: url(heic.png);
+  width: 100%;
+   /* Adjust maximum width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+
+
+/* Header Styles */
+.event {
+  font-size: 2.5rem;
+}
+
+/* Container Styles */
+.container {
+  margin-top: 20px;
+}
+
+/* Paragraph Styles */
+.container p {
+  font-size: 1rem;
+}
+
+/* Heading Styles */
+.hedi {
+  font-size: 1.8rem;
+}
+
+/* Subheading Styles */
+.container h2 {
+  font-size: 1.3rem;
+}
+
+/* List Styles */
+.container ul {
+  padding-left: 20px;
+}
+
+.container li {
+  margin-bottom: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small phones */
+@media only screen and (max-width: 320px) {
+  .hedi {
+    font-size: 1.5rem;
+  }
+  
+  .container h2 {
+    font-size: 1rem;
+  }
+  
+  .container p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Medium-sized phones */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .hedi {
+    font-size: 1.8rem;
+  }
+  
+  .container h2 {
+    font-size: 1.1rem;
+  }
+  
+  .container p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Larger devices */
+@media only screen and (min-width: 481px) {
+  .bodyy {
+    padding: 40px;
+  }
+  
+  .event {
+    font-size: 3rem;
+  }
+  
+  .hedi {
+    font-size: 2rem;
+  }
+  
+  .container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .container p {
+    font-size: 1rem;
+  }
+}
